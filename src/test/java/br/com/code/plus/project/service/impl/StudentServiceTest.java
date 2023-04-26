@@ -15,7 +15,7 @@ import static org.assertj.core.api.BDDAssertions.then;
 public class StudentServiceTest {
 
     @Mock
-    private StudentService studentService;
+    private StudentService studentService; //null
 
     @Test
     public void shouldCreateStudent() {

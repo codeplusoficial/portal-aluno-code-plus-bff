@@ -15,7 +15,6 @@ public class StudentService implements StudentInterface {
     public StudentService(StudentRepository studentRepository) {
         this.studentRepository = studentRepository;
     }
-
     @Override
     public Student findStudentById(Integer id) {
         Student response = studentRepository.findById(id)
@@ -41,6 +40,7 @@ public class StudentService implements StudentInterface {
         response.setUserName(response.getUserName());
 
         return studentRepository.save(response);
+
     }
     @Override
     public void deleteStudent(Integer valor) {
