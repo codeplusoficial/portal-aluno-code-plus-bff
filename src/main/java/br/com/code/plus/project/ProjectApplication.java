@@ -11,8 +11,3 @@ public class ProjectApplication {
 
 	}
 }
-
-//git add . serve para adicionar alterações no seu código em seu ambiente local onde será enviado para o git
-//git commit -m serve para descrever oque foi feito no seu código
-//git push serve para enviar as alterações para o github
-//git pull serve para puxar informações do repositorio
